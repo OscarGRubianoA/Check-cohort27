@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+background-color: black;
+display: flex;
+justify-content:space-around;
+align-items: center;
+}
+header img{
+    height:3rem;
+    width:3rem;
+}
+header h1{
+    color: white;
+    font-size: 1rem;
+}
+header nav{
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+header a{
+    background-color:mediumblue;
+    color: white;
+    text-decoration: none;
+    padding: .4rem;
+}
+.active{
+    background-color: green;
+}
+main{
+    background-color: orange;
+    min-height: 81.9vh;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+section{
+    width: 28rem;
+    height: 13rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+section img{
+    width:14rem;
+    height: 8rem;
+}
+.section1{
+    background-color:red;
+    margin: 1.5rem 3rem 0 3rem ;
+}
+.section2{
+    background-color:rgb(1, 49, 1);
+    margin: 0 3rem 1.5rem 3rem;
+    padding: 0 4rem 0 4rem;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+.section3{
+    background-color: mediumblue;
+    margin: 5rem 5.3rem 5rem 5rem;
+    height: 20rem;
+    width: 22rem;
+    padding: 2rem 4rem 2rem 4rem;
+    
+    display: flex;
+    flex-direction: column;
+}
+.section3 h4{
+    font-size: 1.1rem;
+}
+.container1{
+    margin: 9rem;
+    margin-top: 1rem;
+    margin-bottom: .1rem;
+    background-color: mediumblue;
+   
+    
+}
+footer{
+    background-color: mediumblue;
+    color: white;
+    padding: .3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
